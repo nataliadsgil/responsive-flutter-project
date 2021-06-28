@@ -13,7 +13,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Curso de Flutter',
+      debugShowCheckedModeBanner: false,
       builder: DevicePreview.appBuilder,
       locale: DevicePreview.locale(context),
       theme: ThemeData(
