@@ -1,1 +1,2 @@
-const int mobileBreakpoint = 800;
+const int mobileBreakpoint = 700;
+const int tabletBreakpoint = 1200;
